@@ -1,1 +1,74 @@
-<h1>Welcome to the Home Page</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+            background: linear-gradient(135deg, rgba(195, 236, 247, 0.8), rgba(245, 247, 250, 0.8)),
+                        url('https://www.transparenttextures.com/patterns/cubes.png');
+            background-size: cover;
+            background-blend-mode: overlay;
+        }
+
+        .home {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            padding: 40px;
+            max-width: 600px;
+            width: 90%;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #4a90e2;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px #ddd;
+        }
+
+        p {
+            font-size: 1.3rem;
+            color: #555;
+            margin-top: 10px;
+        }
+
+        .btn {
+            background-color: #4a90e2;
+            border: none;
+            color: white;
+            padding: 12px 25px;
+            font-size: 1.1rem;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            margin-top: 25px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+            text-decoration: none; /* To remove underline */
+        }
+
+        .btn:hover {
+            background-color: #357abd;
+            transform: scale(1.08);
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="home">
+        <h1>Welcome to the Home Page</h1>
+        <p>Discover a world of content and features tailored just for you. Dive in and explore!</p>
+        <a href="form.html" class="btn">Explore More</a>
+    </div>
+</body>
+</html>
