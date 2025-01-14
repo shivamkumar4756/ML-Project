@@ -68,10 +68,7 @@ The project has been deployed on AWS Elastic Beanstalk, enabling real-time predi
 - Interactive web interface to input student details.
 - Real-time predictions for Math scores.
 - Insightful data visualizations.
-
-## 🔗 Resources
-- **Project Repository**: [EduScore Repo](https://lnkd.in/gQJNS-fi)
-
+  
 ## 🙌 Feedback
 We'd love to hear your feedback! Feel free to reach out or contribute to the project.
 
